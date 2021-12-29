@@ -1,9 +1,19 @@
 # Control-UR-Robotic-Arm-to-Visually-Capture-Specific-Fruits-With-HSV-Target-Detection
+
 ## 基于HSV颜色模型识别不同水果，控制UR机械臂抓取运动中不同水果将其分类摆放
 
 ### 环境配置
 
 - 首先要将gxipy放到anaconda文件夹里对应环境的lib下，要保证这个环境下有numpy，PIL等基本的包
+
+  - 或者通过
+
+    ```python
+    import sys
+    sys.path.append(“gxipy的路径”)
+    ```
+
+    把gxipy的地址导入
 
 - 安装UR机械臂驱动程序
 
